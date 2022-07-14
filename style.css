@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Sen:wght@400;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#013243 ;
+    font-family: 'Inter', sans-serif;
+    color:#32f5c8;
+    position: relative;
+    
+}
+nav{
+    padding:30px 280px;
+    position:sticky;
+    top:0;
+    bottom: 0;
+    background-color: #013243;
+    
+}
+main{
+    padding:30px 280px;
+}
+.img{
+    width:130px;
+    height:130px;
+    border-radius: 50%;
+    position: absolute;
+    left:180px;
+    top:100px
+
+}
+.two{
+    width:110px;
+    height:110px;
+    left:1000px;
+
+}
+.three{
+    width:150px;
+    height:150px;
+    left:1150px;
+    top:68px;
+}
+
+.four{
+    width:120px;
+    height:120px;
+    left:828px;
+    top:348px
+
+}
+.five{
+    width:100px;
+    height:100px;
+    left:1218px;
+    top:330px
+
+}
+.six{
+    width:250px;
+    height:250px;
+    left:996px;
+    top:520px;
+
+}
+h1{
+    font-size: 140px;
+    font-family: 'Sen', sans-serif;
+    line-height: 1;
+}
+p{
+    font-size: 20px;
+    color:rgba(185, 214, 214, 0.995);
+    margin:26px 0px;
+    
+}
+button{
+    padding:20px 18px;
+    border:none;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color:#32f5c8; 
+    color:#013243;
+    font-weight: bold;
+    font-family: 'Sen', sans-serif;
+    cursor: pointer;
+}
+button:hover{
+    background-color:#3ea58d;
+}
+button:active{
+    background-color: antiquewhite;
+}
+
+
+footer{
+    padding:30px 280px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom:0;
+}
+ footer p{
+    font-size: 20px;
+    color:rgba(185, 214, 214, 0.995);
+    margin-left: 20px;
+}
