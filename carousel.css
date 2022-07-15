@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#CCD6A6 ;
+}
+.carousel{
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 100px;
+   
+}
+.carousel .carousel-item{
+    display: none;
+}
+.carousel .visible{
+    display: block;
+}
+.carousel .carousel-item img{
+   width:100%
+}
+.carousel-button{
+    width:100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    position:absolute;
+    top:50%
+}
+.carousel-button button{
+    padding:16px;
+    border-radius: 50%;
+    border:none
+}
+.fa-solid{
+    font-size: 18px;
+}
